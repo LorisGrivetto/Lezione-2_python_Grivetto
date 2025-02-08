@@ -1,0 +1,5 @@
+costoBiglietto = int(input("Inserisci il costo del biglietto: ")) 
+costoAlbergo = int(input("Inserisci il costo dell'albergo: ")) 
+durataGita = int(input("Inserisci la durata della gita: ")) 
+costoPerStudente = costoBiglietto + costoAlbergo*(durataGita-1)
+print("il costo per studente è ",costoPerStudente,"€" )
